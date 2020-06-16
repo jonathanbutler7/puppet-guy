@@ -1,0 +1,15 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+.link-boxes {
+    border: solid red 2px;
+}
+
+.box {
+    border: solid blue 2px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
