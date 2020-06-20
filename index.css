@@ -40,7 +40,7 @@ a {
     align-items: center;
 }
 
-.button:hover {
+.top-button:hover, .bottom-button:hover {
     background-color: white;
     color: #556EC2;
     border: solid 1px #556EC2;
@@ -67,9 +67,9 @@ img {
     /* object-fit: contain; */
 }
 
-img:hover {
+/* img:hover {
     box-shadow: 0 5px 15px -5px #556EC2; 
-}
+} */
 
 h3 {
     margin: 0;
@@ -92,7 +92,7 @@ h3 {
     background-color: #556EC2;
     text-align: center;
     border-radius: 5px;
-    /* margin: 15px auto 30px auto; */
+    margin-top: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     border: solid 1px #556EC2;
