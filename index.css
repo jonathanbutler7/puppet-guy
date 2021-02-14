@@ -1,114 +1,100 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-
 body {
-    background-color: #F5F5F5;
-    margin: 0;
+  /* background-color: #F5F5F5; */
+  margin: 0;
 }
 
-.header-background {
-    background-image: url(images/header.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-position-y: inherit;
-    height: 125px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* height: 100px;
-    background: url(/images/header.jpg) no-repeat center center fixed; background-size: cover */
-}
-
-.header-background > img {
-    margin-bottom: 50px;   
-}
-
-h1 {
-    margin: 0 auto 0 auto;
-}
-
-a {
-    text-decoration: none;
-}
-
-#logo {
-    width: 100px;
-    margin: 0 auto 0 auto;
-    display: flex;
-    align-items: center;
-}
-
-.top-button:hover, .bottom-button:hover {
-    background-color: white;
-    color: #556EC2;
-    border: solid 1px #556EC2;
-    box-shadow: 0 5px 15px -5px #F5F5F5; 
-    font-family: Roboto;
-  }
-
-.buttons-container {
-    max-width: 500px;
-    background-color: white;
-    /* display: flex;
-    flex-direction: column; */
-    margin: 0 auto 0 auto;
-    padding: 25px 25px 25px 25px;
-    /* justify-content: center; */
-    margin-bottom: 25px;
-}
-
-.button-image {
-    background-color: #FEC76C;
+nav {
+  display: flex;
+  background-color: none;
+  justify-content: space-around;
 }
 
 img {
-    width: 100%;
-    /* object-fit: contain; */
+  width: 100%;
 }
 
-/* img:hover {
-    box-shadow: 0 5px 15px -5px #556EC2; 
-} */
+h1 {
+  margin: 0 auto;
+}
 
-h3 {
+h3, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 a {
+    font-weight: 100;
+}
+h4 a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-background {
+  background-image: url(https://res.cloudinary.com/dinz5dbwn/image/upload/v1613346075/samples/puppets/header_aqinnu.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-position-y: inherit; */
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: white;
+  color: #556ec2;
+  border: solid 1px #556ec2;
+  box-shadow: 0 5px 15px -5px #f5f5f5;
+}
+
+.buttons-container {
+  max-width: 500px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.button-image {
+  background-color: #fec76c;
+}
+
+.button {
+  color: white;
+  background-color: #556ec2;
+  text-align: center;
+  border-radius: 5px;
+  margin: 15px auto 30px auto;
+  padding: 5px 0;
+  border: solid 1px #556ec2;
+}
+
+.button h3 {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-.top-button {
-    color: white;
-    background-color: #556EC2;
-    text-align: center;
-    border-radius: 5px;
-    margin: 15px auto 30px auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: solid 1px #556EC2;
-}
-
-.bottom-button {
-    color: white;
-    background-color: #556EC2;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: solid 1px #556EC2;
 }
 
 @media all and (min-width: 600px) {
-    .header-background {
-        margin-bottom: 25px;
-        height: 200px
-    }
+  .header-background {
+    height: 200px;
+  }
 
-    #logo {
-        /* height: 100px; */
-        width: 150px;
-        margin: 0 auto 0 auto;
-        display: flex;
-    }
+  #logo {
+    width: 150px;
+    margin: 0 auto 0 auto;
+    display: flex;
+  }
 }
