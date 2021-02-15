@@ -1,6 +1,5 @@
 const imgUrl = 'https://res.cloudinary.com/dinz5dbwn/image/upload';
 
-// thumbnail images
 const sneeze = `${imgUrl}/v1613352707/puppets/images/THE_BIG_SNEEZE_amnbjy.png`;
 const bugg = `${imgUrl}/v1613352708/puppets/images/BUGG-BUGGS_pl7gok.png`;
 const bottle = `${imgUrl}/v1613352709/puppets/images/BOTTLE_HEAD_kspgf8.png`;
@@ -17,14 +16,4 @@ const thumbnails = [
   { img: boydog, url: 'https://youtube.com' },
 ];
 
-const videos = thumbnails.map(
-  (thumbnail) =>
-    `<a href=${thumbnail.url} target='blank'>
-        <img
-          src=${thumbnail.img}
-          alt=${thumbnail.img}
-        />
-      </a>`
-);
-
-export { videos };
+export { thumbnails };

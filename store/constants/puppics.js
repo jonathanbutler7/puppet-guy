@@ -12,17 +12,4 @@ const puppicsPix = [torkie, tubes, flower, pencil, trunk, backyard];
 const puppicstxt = `LEFT TO RIGHT: OK, that’s me from a long time ago, with my sidekick Flower. The two Tube Dudes are the tallest puppets I’ve made, and next to that is the smallest puppet I’ve made, built onto a toothpick. I named him Zigfreed. Next is the Backyard TV show. I performed Flower and the character coming out of the tree, Ruben Stein Rabbit, who would play classical music on a rabbit-sized toy piano. I drew a picture of my first two store-bought puppets, Freemont and Torkie. The last puppet pic is one most people don’t see, how the puppets look when they’re stuffed into the trunk, ready to head to the next puppet show!
 `;
 
-const puppicsTxt = `
-  <div class="puppics-text">
-      <p>${puppicstxt}</p>
-  </div>
-`;
-
-const puppicsImgs = puppicsPix.map(
-  (pic) =>
-    `<div class='puppics-images'>
-      <img src=${pic} alt=${pic}>
-    </div>`
-);
-
-export { puppicsTxt, puppicsImgs };
+export { puppicsPix, puppicstxt };
