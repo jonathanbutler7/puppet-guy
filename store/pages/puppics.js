@@ -1,16 +1,18 @@
-import { puppicstxt, puppicsPix } from '../constants/index.js';
+import { puppicstxt, puppics } from '../constants/index.js';
 
 const puppicsTxt = `
   <div class="puppics-text">
-      <p>${puppicstxt}</p>
+    <p>${puppicstxt}</p>
   </div>
 `;
 
-const puppicsImgs = puppicsPix.map(
+const puppicsImgs = puppics.map(
   (pic) =>
-    `<div class='puppics-images'>
+    `
+    <div class='puppics-images'>
       <img src=${pic} alt=${pic}>
-    </div>`
+    </div>
+    `
 );
 
 export { puppicsTxt, puppicsImgs };

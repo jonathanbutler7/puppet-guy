@@ -18,9 +18,13 @@ function selectPuppics() {
   displayPuppics();
 }
 
-$(document).ready(() => {
+function select() {
   selectVideos();
   selectAbout();
   selectPuppics();
   selectContact();
+}
+
+$(document).ready(() => {
+  select();
 });

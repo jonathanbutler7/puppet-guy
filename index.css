@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 body {
-  /* background-color: #F5F5F5; */
   margin: 0;
 }
 
@@ -48,7 +47,6 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-position-y: inherit; */
   height: 125px;
   display: flex;
   justify-content: center;
