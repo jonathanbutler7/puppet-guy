@@ -1,10 +1,10 @@
 import {
-  videos,
-  contact,
-  aboutTxt,
-  aboutImgs,
   puppicsTxt,
   puppicsImgs,
+  videos,
+  aboutTxt,
+  aboutImgs,
+  contact,
 } from './store/index.js';
 
 function selectContact() {
