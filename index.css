@@ -19,20 +19,28 @@ h1 {
   margin: 0 auto;
 }
 
-h3, h4 {
+h3,
+h4,
+a {
   font-family: 'Roboto', sans-serif;
 }
 
+h4,
 h4 a {
-    font-weight: 100;
+  font-weight: 100;
 }
 h4 a:hover {
-    cursor: pointer;
-    text-decoration: underline;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 a {
   text-decoration: none;
+}
+
+.selected {
+  color: #3961c1;
+  text-decoration: underline;
 }
 
 .header-background {
@@ -84,7 +92,30 @@ a {
 }
 
 .button h3 {
-    margin: 0;
+  margin: 0;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+.contact img {
+  width: 20%;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.videos a {
+    margin: 1rem;
+}
+.videos img {
+    max-width: 400px;
 }
 
 @media all and (min-width: 600px) {
