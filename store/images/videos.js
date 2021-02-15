@@ -1,11 +1,11 @@
 const url = 'https://res.cloudinary.com/dinz5dbwn/image/upload';
-const sample = 'samples/puppets/thumbnails';
-const sneeze = `${url}/v1613349015/samples/${sample}/VIDEOS_THE_BIG_SNEEZE_Thumbnail_oxtxev.png`;
-const bugg = `${url}/v1613349015/samples/${sample}/VIDEOS_BUGG-BUGGS_Thumbnail_dk77of.png`;
-const bottle = `${url}/v1613349014/samples/${sample}/VIDEOS_BOTTLE_HEAD_Thumbnail_2_b6zj7r.png`;
-const first = `${url}/v1613349014/samples/${sample}/VIDEOS_MY_FIRST_PUPPETS_Thumbnail_ylmnld.png`;
-const simple = `${url}/v1613349013/samples/${sample}/VIDEOS_Super_Simple_Pups_Thumbnail_cdwxbu.png`;
-const boydog = `${url}/v1613349012/samples/${sample}/VIDEOS_BOY_DOG_Thumbnail_4_edpfyk.png`;
+
+const sneeze = `${url}/v1613352707/puppets/images/THE_BIG_SNEEZE_amnbjy.png`;
+const bugg = `${url}/v1613352708/puppets/images/BUGG-BUGGS_pl7gok.png`;
+const bottle = `${url}/v1613352709/puppets/images/BOTTLE_HEAD_kspgf8.png`;
+const first = `${url}/v1613352707/puppets/images/MY_FIRST_PUPPETS_nhkcy6.png`;
+const simple = `${url}/v1613352710/puppets/images/Super_Simple_Pups_f3wwkt.png`;
+const boydog = `${url}/v1613352704/puppets/images/BOY_DOG_dqelfo.png`;
 
 const thumbnails = [
   { img: sneeze, url: 'youtube.com' },

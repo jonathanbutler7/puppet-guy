@@ -1,2 +1,3 @@
-export * from './images/videos'
-export * from './pages/contact'
+export * from './images/index'
+export * from './pages/index'
+export * from './copy/copy'
