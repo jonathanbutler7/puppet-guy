@@ -40,6 +40,7 @@ function selectPuppics() {
 }
 
 $(document).ready(() => {
+    console.log(videos)
   selectVideos();
   selectAbout();
   selectPuppics();
