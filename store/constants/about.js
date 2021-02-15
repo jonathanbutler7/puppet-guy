@@ -1,4 +1,4 @@
-const imgUrl = 'https://res.cloudinary.com/dinz5dbwn/image/upload';
+import { imgUrl } from './cloudinary.js'
 
 const aboutBuppets2 = `${imgUrl}/v1613356473/puppets/images/about/Buppets_2_Set_gu88rz.jpg`;
 const aboutBuppets1 = `${imgUrl}/v1613356471/puppets/images/about/Buppets_1_white_outline_wthz8b.png`;

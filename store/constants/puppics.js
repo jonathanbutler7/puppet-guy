@@ -1,4 +1,4 @@
-const imgUrl = 'https://res.cloudinary.com/dinz5dbwn/image/upload';
+import { imgUrl } from './cloudinary.js';
 const path = 'puppets/images/puppics';
 
 const torkie = `${imgUrl}/v1613356891/${path}/PUP_PICS_Freemont_Torkie_lvnw3l.png`;

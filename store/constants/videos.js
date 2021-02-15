@@ -1,4 +1,4 @@
-const imgUrl = 'https://res.cloudinary.com/dinz5dbwn/image/upload';
+import { imgUrl } from './cloudinary.js';
 
 const sneeze = `${imgUrl}/v1613352707/puppets/images/THE_BIG_SNEEZE_amnbjy.png`;
 const bugg = `${imgUrl}/v1613352708/puppets/images/BUGG-BUGGS_pl7gok.png`;
