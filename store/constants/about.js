@@ -1,11 +1,18 @@
-import { imgUrl } from './cloudinary.js'
+import { imgUrl } from './cloudinary.js';
 
-const aboutBuppets2 = `${imgUrl}/v1613356473/puppets/images/about/Buppets_2_Set_gu88rz.jpg`;
-const aboutBuppets1 = `${imgUrl}/v1613356471/puppets/images/about/Buppets_1_white_outline_wthz8b.png`;
 const arf = `${imgUrl}/v1613356472/puppets/images/about/Rod_Arf_Profile_l1dg0t.png`;
-const johnK = `${imgUrl}/v1613356468/puppets/images/about/Trigger_Back_ga2kmm.jpg`;
 const trigger = `${imgUrl}/v1613356468/puppets/images/about/Trigger_Front_xtuf2t.jpg`;
-const aboutPix = [arf, johnK, trigger, aboutBuppets1, aboutBuppets2];
+const johnK = `${imgUrl}/v1613356468/puppets/images/about/Trigger_Back_ga2kmm.jpg`;
+const buppets1 = `${imgUrl}/v1613356471/puppets/images/about/Buppets_1_white_outline_wthz8b.png`;
+const buppets2 = `${imgUrl}/v1613356473/puppets/images/about/Buppets_2_Set_gu88rz.jpg`;
+
+const aboutPix = [
+  { img: arf, alt: 'arf' },
+  { img: johnK, alt: 'johnK' },
+  { img: trigger, alt: 'trigger' },
+  { img: buppets1, alt: 'buppets-1' },
+  { img: buppets2, alt: 'buppets2' },
+];
 
 const abouttxt = `Hi! I’m Rod the Puppet Guy with a DID YOU KNOW about me and the puppets. Here we go!
 DID YOU KNOW that my dad, John K. Butler, was a scriptwriter? One of his movies, “My Pal Trigger,” starred the singing cowboy, Roy Rogers.

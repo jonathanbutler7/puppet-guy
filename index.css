@@ -8,7 +8,8 @@ nav {
   display: flex;
   background-color: none;
   flex: 1;
-  margin: 1rem;
+  padding: 0 1rem;
+  background: gainsboro;
 }
 
 nav > h4 {
@@ -74,12 +75,16 @@ a {
   display: flex;
   align-items: center;
 }
+#arf {
+  width: 100px;
+  margin: 1rem 0;
+}
 
 .button:hover {
   background-color: white;
   color: #556ec2;
   border: solid 1px #556ec2;
-  box-shadow: 0 5px 15px -5px #f5f5f5; // 
+  box-shadow: 0 5px 15px -5px #f5f5f5; //
 }
 
 .buttons-container {
@@ -129,6 +134,30 @@ a {
 }
 .videos img {
   max-width: 400px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  justify-content: center;
+}
+
+.about-text  {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.ok {
+  justify-content: center;
+  display: flex;
+}
+
+.ok img {
+  max-width: 400px;
+  margin: 1rem;
+  width: 45%;
 }
 
 @media all and (min-width: 600px) {
