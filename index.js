@@ -1,3 +1,4 @@
+import { videos } from './store/index.js';
 import {
   displayContact,
   displayVideos,
@@ -25,6 +26,19 @@ function select() {
   selectContact();
 }
 
+function start() {
+  $('.videos').html(videos);
+  $('.videos').show();
+  $('.contact').hide();
+  $('.about').hide();
+  $('.puppics').hide();
+  $('#videos').addClass('selected');
+  $('#about').removeClass('selected');
+  $('#puppics').removeClass('selected');
+  $('#contact').removeClass('selected');
+}
+
 $(document).ready(() => {
   select();
+  start();
 });

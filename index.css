@@ -159,7 +159,10 @@ a {
   margin: 1rem;
   width: 45%;
 }
-
+.puppics {
+  max-width: 1000px;
+  margin: auto;
+}
 .puppics-text {
   margin: 1rem;
 }
