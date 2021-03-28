@@ -84,7 +84,7 @@ a {
   background-color: white;
   color: #556ec2;
   border: solid 1px #556ec2;
-  box-shadow: 0 5px 15px -5px #f5f5f5; //
+  box-shadow: 0 5px 15px -5px #f5f5f5; 
 }
 
 .buttons-container {
@@ -158,6 +158,14 @@ a {
   max-width: 400px;
   margin: 1rem;
   width: 45%;
+}
+
+.puppics-text {
+  margin: 1rem;
+}
+
+.puppics-images  {
+  margin: 1rem; 
 }
 
 @media all and (min-width: 600px) {
