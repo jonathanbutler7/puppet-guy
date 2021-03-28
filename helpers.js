@@ -27,6 +27,7 @@ function displayVideos() {
     $('.videos').show();
     $('.contact').hide();
     $('.about').hide();
+    $('.puppics').hide();
     $('#videos').addClass('selected');
     $('#about').removeClass('selected');
     $('#puppics').removeClass('selected');

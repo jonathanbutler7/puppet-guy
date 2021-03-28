@@ -10,8 +10,8 @@ const contact = `
       <h4>
         CONTACT: <br />
         <a href="mailto:${email}">
-          ${email}/a
-        >
+          ${email}
+        </a>
       </h4>
     </div>
   `;

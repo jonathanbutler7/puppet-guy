@@ -7,9 +7,23 @@ body {
 nav {
   display: flex;
   background-color: none;
-  justify-content: space-around;
+  flex: 1;
+  margin: 1rem;
 }
 
+nav > h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+  padding-left: 0;
+}
 img {
   width: 100%;
 }
@@ -20,7 +34,8 @@ h1 {
 
 h3,
 h4,
-a, p {
+a,
+p {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -43,7 +58,7 @@ a {
 }
 
 .header-background {
-  background-image: url(https://res.cloudinary.com/dinz5dbwn/image/upload/v1613353003/puppets/images/header/header_wjkzsa.png);
+  background-image: url(https://res.cloudinary.com/dinz5dbwn/image/upload/v1616901982/puppets/images/header/RTPG_Website_Masthead_3_Opt_Size_enrmxl.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -64,7 +79,7 @@ a {
   background-color: white;
   color: #556ec2;
   border: solid 1px #556ec2;
-  box-shadow: 0 5px 15px -5px #f5f5f5;
+  box-shadow: 0 5px 15px -5px #f5f5f5; // 
 }
 
 .buttons-container {
@@ -104,16 +119,16 @@ a {
 }
 
 .videos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .videos a {
-    margin: 1rem;
+  margin: 1rem;
 }
 .videos img {
-    max-width: 400px;
+  max-width: 400px;
 }
 
 @media all and (min-width: 600px) {

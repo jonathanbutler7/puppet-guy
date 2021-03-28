@@ -28,5 +28,3 @@ function select() {
 $(document).ready(() => {
   select();
 });
-
-// adding a comment for good measure
