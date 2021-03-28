@@ -1,5 +1,4 @@
 import {
-  puppicsTxt,
   puppicsImgs,
   videos,
   aboutTxt,
@@ -53,8 +52,8 @@ function displayAbout() {
 function displayPuppics() {
   $('#puppics').on('click', function () {
     $('#puppics').addClass('selected');
-    $('.puppics').html(puppicsTxt);
-    $('.puppics').append(puppicsImgs);
+    // $('.puppics').html(puppicsTxt);
+    $('.puppics').html(puppicsImgs);
     $('.puppics').show();
     $('.videos').hide();
     $('.about').hide();
