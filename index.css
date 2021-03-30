@@ -44,7 +44,7 @@ p {
 h5 {
   border: 1px solid red;
   
-  
+  margin: 0;
   font-size: 40px;
 }
 
@@ -169,10 +169,10 @@ a {
 .ok {
   justify-content: center;
   display: flex;
+  max-width: 800px;
 }
 
 .ok img {
-  max-width: 400px;
   margin: 1rem;
   width: 45%;
 }
@@ -187,10 +187,17 @@ a {
 .puppics-images  {
   margin: 1rem; 
 }
+#hamburger-menu {
+  display: block;
+}
 
-@media all and (min-width: 600px) {
+
+@media all and (min-width: 650px) {
   .header-background {
     height: 200px;
+  }
+  #hamburger-menu {
+    display: none;
   }
 
   #logo {
