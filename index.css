@@ -7,6 +7,7 @@ body {
 nav {
   display: flex;
   background-color: none;
+  align-items: center;
   flex: 1;
   padding: 0 1rem;
   background: gainsboro;
@@ -38,6 +39,13 @@ h4,
 a,
 p {
   font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+  border: 1px solid red;
+  
+  
+  font-size: 40px;
 }
 
 h4,
