@@ -8,7 +8,8 @@ const puppicsImgs = `
             display: flex; 
             flex-direction: column; 
             flex: 1; 
-            padding: 1rem;
+            padding: .5rem;
+            align-items: center;
             justify-content: space-between;
           ">
             <img style="align-self: center;" src=${puppics[0].img} alt=${puppics[0].alt}>
