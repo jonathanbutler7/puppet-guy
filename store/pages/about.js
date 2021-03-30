@@ -2,11 +2,11 @@ import { abouttxt, aboutPix } from '../constants/index.js';
 
 const aboutImgs = `
   <div class='about-container'>
-    <div class='ok'>
+    <div class=''>
       <img style="align-self: center" src=${aboutPix[1].img} alt=${aboutPix[1].alt} >
       <img style="align-self: center" src=${aboutPix[2].img} alt=${aboutPix[2].alt} >
     </div>
-    <div class='ok'>
+    <div class=''>
       <img src=${aboutPix[3].img} alt=${aboutPix[3].alt} >
       <img src=${aboutPix[4].img} alt=${aboutPix[4].alt} >
       </div>
