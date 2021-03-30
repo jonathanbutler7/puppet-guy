@@ -9,8 +9,8 @@ const coconut = `${imgUrl}/v1617054161/puppets/images/about/TCHRS_Pic_for_WS_uag
 
 const aboutPix = [
   { img: arf, alt: 'arf' },
-  { img: johnK, alt: 'johnK' },
   { img: trigger, alt: 'trigger' },
+  { img: johnK, alt: 'johnK' },
   { img: buppets1, alt: 'buppets-1' },
   { img: buppets2, alt: 'buppets2' },
   { img: coconut, alt: 'coconut' },

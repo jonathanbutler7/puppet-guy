@@ -10,7 +10,9 @@ const aboutImgs = `
       <img src=${aboutPix[3].img} alt=${aboutPix[3].alt} >
       <img src=${aboutPix[4].img} alt=${aboutPix[4].alt} >
       </div>
+    <div style="max-width: 800px; margin: auto;">
       <img src=${aboutPix[5].img} alt=${aboutPix[5].alt} >
+    </div>
   </div>
 `;
 

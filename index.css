@@ -48,6 +48,15 @@ h4 a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+#youtube-link {
+  color: black;
+  text-decoration: underline;
+}
+#youtube-link:hover {
+  color: blue;
+  text-decoration: none;
+}
+
 
 a {
   text-decoration: none;
