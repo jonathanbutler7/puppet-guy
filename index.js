@@ -40,8 +40,9 @@ function start() {
 }
 
 function toggleMenu() {
+  const menu = document.getElementsByClassName('.mobile-ul')
   $('.hamburger-menu').on('click', function () {
-    console.log('hi');
+    $('.uhm').toggleClass(['mobile-ul', 'mobile-ul-hidden'])
   });
 }
 
