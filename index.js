@@ -24,18 +24,25 @@ function select() {
   selectAbout();
   selectPuppics();
   selectContact();
+  toggleMenu();
 }
 
 function start() {
-  $('.videos').html(videos);
-  $('.videos').show();
-  $('.contact').hide();
-  $('.about').hide();
-  $('.puppics').hide();
+  $('.videos-page').html(videos);
+  $('.videos-page').show();
+  $('.contact-page').hide();
+  $('.about-page').hide();
+  $('.puppics-page').hide();
   $('#videos').addClass('selected');
   $('#about').removeClass('selected');
   $('#puppics').removeClass('selected');
   $('#contact').removeClass('selected');
+}
+
+function toggleMenu() {
+  $('.hamburger-menu').on('click', function () {
+    console.log('hi');
+  });
 }
 
 $(document).ready(() => {

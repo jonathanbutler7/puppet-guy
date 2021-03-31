@@ -8,11 +8,11 @@ import {
 
 function displayContact() {
   $('#contact').on('click', function () {
-    $('.contact').html(contact);
-    $('.contact').show();
-    $('.videos').hide();
-    $('.about').hide();
-    $('.puppics').hide();
+    $('.contact-page').html(contact);
+    $('.contact-page').show();
+    $('.videos-page').hide();
+    $('.about-page').hide();
+    $('.puppics-page').hide();
     $('#contact').addClass('selected');
     $('#videos').removeClass('selected');
     $('#about').removeClass('selected');
@@ -22,11 +22,11 @@ function displayContact() {
 
 function displayVideos() {
   $('#videos').on('click', function () {
-    $('.videos').html(videos);
-    $('.videos').show();
-    $('.contact').hide();
-    $('.about').hide();
-    $('.puppics').hide();
+    $('.videos-page').html(videos);
+    $('.videos-page').show();
+    $('.contact-page').hide();
+    $('.about-page').hide();
+    $('.puppics-page').hide();
     $('#videos').addClass('selected');
     $('#about').removeClass('selected');
     $('#puppics').removeClass('selected');
@@ -37,12 +37,12 @@ function displayVideos() {
 function displayAbout() {
   $('#about').on('click', function () {
     $('#about').addClass('selected');
-    $('.about').html(aboutTxt);
-    $('.about').append(aboutImgs);
-    $('.about').show();
-    $('.videos').hide();
-    $('.puppics').hide();
-    $('.contact').hide();
+    $('.about-page').html(aboutTxt);
+    $('.about-page').append(aboutImgs);
+    $('.about-page').show();
+    $('.videos-page').hide();
+    $('.puppics-page').hide();
+    $('.contact-page').hide();
     $('#videos').removeClass('selected');
     $('#contact').removeClass('selected');
     $('#puppics').removeClass('selected');
@@ -52,12 +52,12 @@ function displayAbout() {
 function displayPuppics() {
   $('#puppics').on('click', function () {
     $('#puppics').addClass('selected');
-    // $('.puppics').html(puppicsTxt);
-    $('.puppics').html(puppicsImgs);
-    $('.puppics').show();
-    $('.videos').hide();
-    $('.about').hide();
-    $('.contact').hide();
+    // $('.puppics-page').html(puppicsTxt);
+    $('.puppics-page').html(puppicsImgs);
+    $('.puppics-page').show();
+    $('.videos-page').hide();
+    $('.about-page').hide();
+    $('.contact-page').hide();
     $('#videos').removeClass('selected');
     $('#contact').removeClass('selected');
     $('#about').removeClass('selected');

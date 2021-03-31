@@ -1,7 +1,7 @@
 import { cloud, email } from '../constants/index.js';
 
 const contact = `
-    <div class="contact">
+    <div class="contact-page">
       <img
         src=${cloud}
         alt="cloud"
