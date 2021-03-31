@@ -226,6 +226,9 @@ a {
   .desktop-nav {
     display: flex;
   }
+  .hamburger-menu {
+    display: none;
+  }
   #hamburger-menu {
     display: none;
   }
