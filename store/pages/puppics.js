@@ -3,17 +3,14 @@ import { puppicstxt, puppics } from '../constants/index.js';
 const puppicsImgs = `
   <div style="display: flex;">
       <div class='puppics-images'>
-        <div style="display: flex;">
-          <div style="
-            display: flex; 
-            flex-direction: column; 
-            flex: 1; 
-            padding: .5rem;
-            align-items: center;
-            justify-content: space-between;
-          ">
-            <img style="align-self: center;" src=${puppics[0].img} alt=${puppics[0].alt}>
-            <img style="align-self: center;" src=${puppics[1].img} alt=${puppics[1].alt}>
+        <div class='top-box'>
+          <div class='left-box'>
+          <div class='image-wrapper'>
+            <img src=${puppics[0].img} alt=${puppics[0].alt}>
+          </div>
+          <div class='image-wrapper'>
+            <img src=${puppics[1].img} alt=${puppics[1].alt}>
+          </div>
           </div>
           <div style="flex: 1;">
             <img style="align-self: center;" src=${puppics[2].img} alt=${puppics[2].alt}>
