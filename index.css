@@ -216,6 +216,8 @@ display: flex;
 .about-img-container {
   display: flex;
   justify-content: space-evenly;
+  margin: auto;
+  max-width: 800px;
 }
 .about-img {
   align-self: center;
